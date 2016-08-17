@@ -1,0 +1,61 @@
+"*":
+  aligner:
+    ":-leftSpace": true
+  "atom-beautify":
+    general:
+      _analyticsUserId: "9a63861e-b968-474f-b42d-5a66e36fe3d7"
+  "atom-ctags":
+    autoBuildTagsWhenActive: true
+    buildTimeout: 20000
+    cmdArgs: "--exclude=node_modules --exclude=.git --exclude=public --exclude=.sass-cache --exclude=db --exclude=temp --exclude=vendor"
+  "autocomplete-plus":
+    scopeBlacklist: [
+      "node_modules"
+    ]
+  core:
+    disabledPackages: [
+      "symbols-view"
+    ]
+    ignoredNames: [
+      ".sass-cache"
+      ".git"
+      ".DS_Store"
+      "Thumbs.db"
+      "node_modules"
+      ".tags"
+      ".tags1"
+      "vendor"
+      ".tags_sorted_by_file"
+    ]
+    openEmptyEditorOnStart: false
+  editor:
+    invisibles: {}
+    preferredLineLength: 100
+    showIndentGuide: true
+  "exception-reporting":
+    userId: "e04bf7ac-b19c-3d2b-3b57-5a3697871ed3"
+  "js-hyperclick":
+    extensions: [
+      ".js"
+      ".json"
+      ".node"
+      ".jsx"
+    ]
+  linter:
+    errorPanelHeight: 49
+    lintOnFly: false
+    lintOnFlyInterval: 2000
+  "linter-eslint": {}
+  "linter-jshint": {}
+  "linter-rubocop": {}
+  "split-diff":
+    ignoreWhitespace: true
+    leftEditorColor: "red"
+    rightEditorColor: "green"
+    syncHorizontalScroll: true
+  "tree-view":
+    hideIgnoredNames: true
+  welcome:
+    showOnStartup: false
+  whitespace:
+    ignoreWhitespaceOnCurrentLine: false
